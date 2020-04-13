@@ -24,6 +24,7 @@
 		BD47B5552268EDA10060BDF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD47B5542268EDA10060BDF3 /* Assets.xcassets */; };
 		BD47B5582268EDA10060BDF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD47B5562268EDA10060BDF3 /* LaunchScreen.storyboard */; };
 		BD47B55B2268EDA10060BDF3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD47B55A2268EDA10060BDF3 /* main.m */; };
+		C2DF48852444A1CD001638E3 /* CreateTrees.m in Sources */ = {isa = PBXBuildFile; fileRef = C2DF48842444A1CD001638E3 /* CreateTrees.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,8 @@
 		BD47B5572268EDA10060BDF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD47B5592268EDA10060BDF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD47B55A2268EDA10060BDF3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C2DF48832444A1CD001638E3 /* CreateTrees.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CreateTrees.h; sourceTree = "<group>"; };
+		C2DF48842444A1CD001638E3 /* CreateTrees.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreateTrees.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +125,8 @@
 				25787FD2243F8E5F0066701D /* ExampleTrees.png */,
 				25787FD3243F8E5F0066701D /* FullBinaryTrees.h */,
 				25787FD5243F8E5F0066701D /* FullBinaryTrees.m */,
+				C2DF48832444A1CD001638E3 /* CreateTrees.h */,
+				C2DF48842444A1CD001638E3 /* CreateTrees.m */,
 			);
 			path = 4;
 			sourceTree = "<group>";
@@ -292,6 +297,7 @@
 				BD47B5532268ED9F0060BDF3 /* AppDelegate.m in Sources */,
 				25787FE1243F8E5F0066701D /* TelephoneFinder.m in Sources */,
 				25787FDA243F8E5F0066701D /* SquareDecomposer.m in Sources */,
+				C2DF48852444A1CD001638E3 /* CreateTrees.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
